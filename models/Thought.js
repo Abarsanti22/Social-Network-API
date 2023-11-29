@@ -34,7 +34,7 @@ const ThoughtSchema = new Schema (
     {
         thoughtText: {
             type: String,
-            required: "Thought is Required",
+            required: true,
             minlength: 1,
             maxlength: 280,
         },
